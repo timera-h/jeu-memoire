@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(235, 235, 235);
+    padding: 100px;
+    font-family: 'Arima Madurai', cursive;
+}
+/* #play:not(:target){
+    opacity: 0;
+    visibility: hidden;
+    transition:opacity 1s, visibility .5s
+}
+#play:target{
+    opacity:1;
+    visibility: visible;
+    transition: opacity 1s, visibility .5s;
+} */
+header{
+    background: rgb(248, 114, 114);
+    height: 80px;
+    padding-top: 10px;
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+/* figure#play{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0,.6);
+    padding: 400px 47%;
+    z-index: 10;
+}
+.commencer.jouer{
+    display: none;
+}
+main button{
+    width: 100px;
+    height: 50px;
+    background: rgb(226, 230, 9);
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    z-index: 11;
+} */
+
+/* .memo{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.memo ul{
+    display: flex;
+    flex-direction: row;
+}
+ul li.rotate{
+    transform: rotateY(190deg);
+    background: url(../assets/img/animaux.png) 0 0 no-repeat;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+.memo ul li{
+    background: url(../assets/img/dos-carte.png) 0 0;
+    display: block;
+    height: 100px;
+    width: 100px;
+    list-style: none;
+    cursor: pointer;
+    transform: rotateY(0);
+    transition: 1s;
+    transform: rotateY(0);
+} */
+/* ul#ligne1 li.renard{
+    background-position: 0 0;
+}
+
+ul#ligne1 li.cochon{
+    background-position: -100px 0 ;
+}
+ul#ligne1 li.vache{
+    background-position: -200px 0 ;
+}
+ul#ligne1 li.cerf{
+    background-position: -300px 0 ;
+}
+ul#ligne1 li.coq{
+    background-position: -400px 0 ;
+}
+ul#ligne1 li.castor{
+    background-position: -500px 0 ;
+}
+ul#ligne1 li.panda{
+    background-position: -600px 0 ;
+}
+
+ul#ligne2 li.zebre{
+    background-position: 0 -100px ;
+}
+ul#ligne2 li.singe{
+    background-position: -100px -100px ;
+}
+ul#ligne2 li.elephant{
+    background-position: -200px -100px ;
+}
+ul#ligne2 li.renard{
+    background-position: -300px -100px ;
+}
+ul#ligne2 li.tigre{
+    background-position: -400px -100px ;
+}
+ul#ligne2 li.mouton{
+    background-position: -500px -100px ;
+}
+ul#ligne2 li.chat{
+    background-position: -600px -100px ;
+}
+
+ul#ligne3 li.castor{
+    background-position: 0 -200px ;
+}
+ul#ligne3 li.chien{
+    background-position: -100px -200px ;
+}
+ul#ligne3 li.chat{
+    background-position: -200px -200px ;
+}
+ul#ligne3 li.elephant{
+    background-position: -400px -200px ;
+}
+ul#ligne3 li.zebre{
+    background-position: -500px -200px ;
+}
+ul#ligne3 li.singe{
+    background-position: -600px -200px ;
+}
+
+ul#ligne4 li.tigre{
+    background-position: 0 -300px ;
+}
+ul#ligne4 li.mouton{
+    background-position: -100px -300px ;
+}
+ul#ligne4 li.cerf{
+    background-position: -200px -300px ;
+}
+ul#ligne4 li.cochon{
+    background-position: -300px -300px ;
+}
+ul#ligne4 li.panda{
+    background-position: -400px -300px ;
+}
+ul#ligne4 li.vache{
+    background-position: -500px -300px ;
+}
+ul#ligne4 li.coq{
+    background-position: -600px -300px ;
+} */
+
+/* debut du fond */
+#memo{
+    width: 750px;
+    height: 450px;
+    background: rgb(128, 148, 101);
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-gap: 5px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
